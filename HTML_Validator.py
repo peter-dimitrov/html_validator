@@ -38,5 +38,5 @@ def _extract_tags(html):
                 tag += html[y]
                 y += 1
             tag += '>'
-            L += tag
+            L.append(tag)
     return L
