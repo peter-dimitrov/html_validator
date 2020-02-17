@@ -35,7 +35,7 @@ def _extract_tags(html):
 
     This function returns a list of all the html tags contained in the input string,
     stripping out all text not contained within angle brackets.
-'''
+    '''
     L = []
     for x in range(len(html)):
         tag = ''
